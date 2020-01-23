@@ -9,6 +9,7 @@ function component() {
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   const newImage = document.createElement('img');
   newImage.src = myImage;
+  element.classList.add('hello');
   element.appendChild(newImage);
 
   return element;
